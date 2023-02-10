@@ -6,7 +6,9 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"prettier": "prettier --write .",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"sass:build": "sass ./Assets/Scss/style.scss ./Assets/Css/style.css",
+		"sass:watch": "sass --watch ./Assets/Scss/style.scss ./Assets/Css/style.css"
 	},
 	"repository": {
 		"type": "git",
@@ -21,5 +23,8 @@
 	"devDependencies": {
 		"husky": "^8.0.3",
 		"prettier": "2.8.4"
+	},
+	"dependencies": {
+		"sass": "^1.58.0"
 	}
 }

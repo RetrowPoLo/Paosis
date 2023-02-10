@@ -19,13 +19,15 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 	text-transform: uppercase;
-}
-.presentation .title-description {
-	font-size: 24px;
-	letter-spacing: 5px;
-}
-.presentation .main-title {
-	font-size: 288px;
+
+	.title-description {
+		font-size: 24px;
+		letter-spacing: 5px;
+	}
+
+	.main-title {
+		font-size: 288px;
+	}
 }
 
 .contact-icons {
@@ -35,13 +37,15 @@ body {
 	top: 42%;
 	margin-left: 52px;
 	font-size: 25px;
-}
-.contact-icons .icon {
-	color: inherit;
-	text-decoration: none;
-}
-.contact-icons .fa-twitter {
-	margin: 20px 0;
+
+	.icon {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	.fa-twitter {
+		margin: 20px 0;
+	}
 }
 
 .nav-tabs {
@@ -52,12 +56,12 @@ body {
 	font-weight: 900;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-}
-.nav-tabs .project-tab {
-	margin-right: 80px;
-}
-.nav-tabs .contact-tab {
-	margin-right: 80px;
-}
 
-/*# sourceMappingURL=style.css.map */
+	.project-tab {
+		margin-right: 80px;
+	}
+
+	.contact-tab {
+		margin-right: 80px;
+	}
+}
