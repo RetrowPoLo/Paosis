@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"prettier": "prettier --write ."
+		"prettier": "prettier --write .",
+		"prepare": "husky install"
 	},
 	"repository": {
 		"type": "git",
@@ -18,6 +19,7 @@
 	},
 	"homepage": "https://github.com/RetrowPoLo/Paosis#readme",
 	"devDependencies": {
+		"husky": "^8.0.3",
 		"prettier": "2.8.4"
 	}
 }
