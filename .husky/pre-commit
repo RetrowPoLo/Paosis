@@ -3,8 +3,6 @@
 
 npm run sass:build
 echo "Sass build into Css ✔️"
-
 npm run prettier
 echo "Prettier format code ✔️"
-
 git add .

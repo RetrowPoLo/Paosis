@@ -10,6 +10,11 @@
 		"sass:build": "sass ./Assets/Scss/style.scss ./Assets/Css/style.css",
 		"sass:watch": "sass --watch ./Assets/Scss/style.scss ./Assets/Css/style.css"
 	},
+	"config": {
+		"commitizen": {
+			"path": "@commitlint/cz-commitlint"
+		}
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/RetrowPoLo/Paosis.git"
@@ -21,6 +26,10 @@
 	},
 	"homepage": "https://github.com/RetrowPoLo/Paosis#readme",
 	"devDependencies": {
+		"@commitlint/cli": "^17.4.3",
+		"@commitlint/config-conventional": "^17.4.3",
+		"@commitlint/cz-commitlint": "^17.4.2",
+		"commitizen": "^4.3.0",
 		"husky": "^8.0.3",
 		"prettier": "2.8.4"
 	},

@@ -35,7 +35,7 @@ body {
 	flex-direction: column;
 	position: fixed;
 	top: 42%;
-	margin-left: 52px;
+	margin-left: 2%;
 	font-size: 25px;
 
 	.icon {
@@ -59,9 +59,27 @@ body {
 
 	.project-tab {
 		margin-right: 80px;
+
+		span {
+			display: inline-block;
+			letter-spacing: 0;
+		}
+
+		&:hover {
+			border-bottom: #463bc1 2px solid;
+		}
 	}
 
 	.contact-tab {
 		margin-right: 80px;
+
+		span {
+			display: inline-block;
+			letter-spacing: 0;
+		}
+
+		&:hover {
+			border-bottom: #8850ff 2px solid;
+		}
 	}
 }
