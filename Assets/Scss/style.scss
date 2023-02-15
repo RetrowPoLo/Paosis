@@ -13,6 +13,12 @@ body {
 .blob {
 	position: absolute;
 	z-index: -1;
+
+	svg:nth-child(2) {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+	}
 }
 
 .blob:nth-child(2) {
@@ -42,7 +48,7 @@ body {
 		}
 
 		.main-title {
-			font-size: 288px;
+			font-size: 250px;
 			letter-spacing: 0.05em;
 		}
 	}
@@ -102,17 +108,8 @@ body {
 	}
 }
 
-@media only screen and (max-width: 500px) {
-	.nav-tabs {
-		display: flex;
-		align-items: center;
-
-		.project-tab {
-			margin: 0;
-		}
-
-		.contact-tab {
-			margin: 0;
-		}
+@media (max-width: 1440px) {
+	.main-title {
+		font-size: 210px;
 	}
 }

@@ -14,6 +14,11 @@ body {
 	position: absolute;
 	z-index: -1;
 }
+.blob svg:nth-child(2) {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
 
 .blob:nth-child(2) {
 	filter: blur(70px);
@@ -41,7 +46,7 @@ body {
 	letter-spacing: 0.3em;
 }
 .home-page .presentation .main-title {
-	font-size: 288px;
+	font-size: 250px;
 	letter-spacing: 0.05em;
 }
 .home-page .contact-icons {
@@ -90,16 +95,9 @@ body {
 	border-bottom: #8850ff 2px solid;
 }
 
-@media only screen and (max-width: 500px) {
-	.nav-tabs {
-		display: flex;
-		align-items: center;
-	}
-	.nav-tabs .project-tab {
-		margin: 0;
-	}
-	.nav-tabs .contact-tab {
-		margin: 0;
+@media (max-width: 1440px) {
+	.main-title {
+		font-size: 210px;
 	}
 }
 
