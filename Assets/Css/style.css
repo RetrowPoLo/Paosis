@@ -21,7 +21,7 @@ body {
 }
 
 .blob:nth-child(2) {
-	filter: blur(70px);
+	filter: blur(50px);
 }
 
 .home-page {
@@ -85,14 +85,14 @@ body {
 	cursor: pointer;
 }
 .home-page .nav-tabs .project-tab:hover {
-	border-bottom: #8850ff 2px solid;
+	border-bottom: #ffffff 2px solid;
 }
 .home-page .nav-tabs .contact-tab {
 	margin-right: 80px;
 	cursor: pointer;
 }
 .home-page .nav-tabs .contact-tab:hover {
-	border-bottom: #8850ff 2px solid;
+	border-bottom: #ffffff 2px solid;
 }
 
 @media (max-width: 1440px) {

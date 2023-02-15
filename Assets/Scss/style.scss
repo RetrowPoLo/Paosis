@@ -22,7 +22,7 @@ body {
 }
 
 .blob:nth-child(2) {
-	filter: blur(70px);
+	filter: blur(50px);
 }
 
 .home-page {
@@ -93,7 +93,7 @@ body {
 			cursor: pointer;
 
 			&:hover {
-				border-bottom: #8850ff 2px solid;
+				border-bottom: #ffffff 2px solid;
 			}
 		}
 
@@ -102,7 +102,7 @@ body {
 			cursor: pointer;
 
 			&:hover {
-				border-bottom: #8850ff 2px solid;
+				border-bottom: #ffffff 2px solid;
 			}
 		}
 	}
