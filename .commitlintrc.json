@@ -16,7 +16,7 @@
 				"enum": {
 					"feat": {
 						"description": "Ajout/mise à jour de fonctionnalité",
-						"title": "Features",
+						"title": "✨ Features",
 						"emoji": "✨"
 					},
 					"fix": {
