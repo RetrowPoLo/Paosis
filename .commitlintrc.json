@@ -1,5 +1,28 @@
 {
 	"extends": ["@commitlint/config-conventional"],
+	"rules": {
+		"type-enum": [
+			2,
+			"always",
+			[
+				"feat",
+				"fix",
+				"docs",
+				"style",
+				"refactor",
+				"perf",
+				"test",
+				"build",
+				"ci",
+				"chore",
+				"revert"
+			]
+		]
+	},
+	"formatter": "@commitlint/format",
+	"formatterOptions": {
+		"headerPattern": "{emoji}{scope}: {subject}"
+	},
 	"parserPreset": "conventional-changelog-conventionalcommits",
 	"prompt": {
 		"messages": {
@@ -16,7 +39,7 @@
 				"enum": {
 					"feat": {
 						"description": "Ajout/mise à jour de fonctionnalité",
-						"title": "✨ Features",
+						"title": "Features",
 						"emoji": "✨"
 					},
 					"fix": {
